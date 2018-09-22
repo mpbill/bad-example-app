@@ -1,0 +1,47 @@
+.app-LoginModal {
+  width: 400px;
+  height: 500px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-50%, -50%);
+  border: 1px solid #c3c3c3;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.app-LoginModal_InputWrapper {
+  margin-bottom: 10px;
+}
+
+.app-LoginModal_Buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+}
+.app-FormButton {
+  min-width: 80px;
+  padding: 4px 16px 4px 16px;
+  background-color: dodgerblue;
+  border: 1px solid #c3c3c3;
+  box-shadow: none;
+  border-radius: 2px;
+  margin: 4px 12px 4px 12px;
+}
+.app-FormButtonSecondary {
+  min-width: 80px;
+  padding: 8px 16px 8px 16px;
+  background-color: lightgrey;
+  border: 1px solid #c3c3c3;
+  box-shadow: none;
+  border-radius: 2px;
+  margin: 4px 12px 4px 12px;
+}
+
+.app-LoginModal_Content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
