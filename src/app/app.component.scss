@@ -1,16 +1,21 @@
+@import "../variables";
 .app-Header {
   display: flex;
-  border-bottom: 1px solid #c3c3c3;
-  padding-bottom: 8px;
   align-items: center;
-  height: 80px;
+  width: 100%;
 }
 .app-Header_UserIcon {
   margin-left: auto;
+  font-size: 2.5em;
+  &:hover {
+    color: #dc0031;
+  }
 }
 
-.app-Header_Image {
 
+
+.app-Header_Image {
+  max-height: 3em;
 }
 
 .app-Header_Title {

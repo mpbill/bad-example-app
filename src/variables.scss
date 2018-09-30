@@ -1,5 +1,6 @@
-$primary = #6200EE;
-$primary2 = ;
-$secondary
-$secondary2
-$backgrdound
+@import '~@angular/material/theming';
+
+@mixin pink-bluegrey-theme($theme) {
+$primary: map-get($theme, primary);
+  $accent: map-get($theme, accent);
+}

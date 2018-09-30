@@ -1,9 +1,13 @@
-.app-TextInput {
+input.app-TextInput {
   width: 100%;
   height: 2em;
   padding: 0 24px 0 24px;
-  border: 1px solid #c3c3c3;
   border-radius: 2px;
-  font-family: Helvetica;
+  border: 1px hidden #c3c3c3;
+  border-bottom-style: solid;
   box-sizing: border-box;
+  &:focus {
+    outline: none;
+    border-bottom-color: blue;
+  }
 }
